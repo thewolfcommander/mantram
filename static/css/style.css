@@ -23,7 +23,7 @@ body {
 }
 
 .navbar--background {
-    background-color: var(--white)!important;
+    background-color: var(--white) !important;
     /* background: transparent!important; */
 }
 
@@ -44,8 +44,8 @@ body {
     cursor: pointer;
 }
 
-button.navbar-toggler{
-    border-color: var(--pullman-brown)!important;
+button.navbar-toggler {
+    border-color: var(--pullman-brown) !important;
 }
 
 button.navbar-toggler ul {
@@ -89,6 +89,14 @@ button.navbar-toggler ul .ham--icon:active {
     transition-delay: 50ms;
 }
 
+@media screen and (min-width: 240px) and (max-width: 720px) {
+
+    .navbar__item a:hover,
+    .navbar__item a:active {
+        border: none;
+    }
+}
+
 .navbar__item--cta a {
     min-width: 100px;
     background: var(--earth-yellow);
@@ -107,6 +115,6 @@ button.navbar-toggler ul .ham--icon:active {
 }
 
 .container-fluid {
-    margin: 0!important;
-    padding: 0!important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
